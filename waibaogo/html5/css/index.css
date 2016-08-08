@@ -1,0 +1,79 @@
+@charset "utf-8";
+.banner{
+    width: 15rem;
+    height: 6.8rem;
+}
+.banner .swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.ranking{
+    padding: .6rem 0 1px 0;
+    background: #f4f6f8;
+}
+.rankingBox{
+    width: 14.2rem;
+    margin: 0 auto .8rem;
+    border-radius: .2rem;
+    background: #ffffff;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+.rankingBoxTitle{
+    padding: .6rem .48rem .52rem;
+}
+.rankingBoxTitle b{
+    float: left;
+    width: .76rem;
+    height: .76rem;
+    margin-top: -1px;
+}
+.rankingBoxTitle b img{
+    width: 100%;
+}
+.rankingBoxTitle h2{
+    float: left;
+    margin-top: 1px;
+    padding-left: .1rem;
+    font-size: .64rem;
+    color: #00bcd4;
+}
+.rankingBoxTitle i{
+    float: right;
+    width: .68rem;
+    height: .68rem;
+    background: url("../images/next.png") no-repeat;
+    background-size: 100% 100%;
+}
+.rankingBoxMain{
+    padding: 0 .32rem;
+}
+.rankingBoxMain dl{
+    padding: .36rem .08rem;
+    border-top: 1px dashed #d2d2d2;
+}
+.rankingBoxMain dt{
+    float: left;
+    display:table;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: .6rem;
+    border: 1px solid #f9f9f9;
+    border-radius: 100%;
+    background: #eeeeee;
+    overflow: hidden;
+}
+.rankingBoxMain dt img{
+    width: 100%;
+    height: 100%;
+}
+.rankingBoxMain dd{}
+.rankingBoxMain h3,.rankingBoxMain span{
+    display: block;
+    padding-top: .4rem;
+    font-size: .48rem;
+    color: #858585;
+}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+.evaluation{
+    width: 1200px;
+    margin: 20px auto;
+}
+.platforms{}
+.platforms ul{}
+.platforms li {
+    float: left;
+    width: 190px;
+    height: 190px;
+    margin: 0 12px 12px 0;
+    background: #f9f9f9;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.platforms li:hover,.platforms li.hover{
+    background: #00bcd4;
+}
+.platforms i{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.platforms i.pf6{
+    background-image: url("../images/evi06.png");
+}
+.platforms li:hover i,.platforms li.hover i{
+    background-position: -120px 0;
+}
+.platforms span{
+    display: block;
+    text-align: center;
+    color: #8f9597;
+}
+.platforms li:hover span,.platforms li.hover span{
+    color: #ffffff;
+}
+.platformsTab{
+    width: 1200px;
+    margin: 20px auto;
+    border-bottom: 1px solid #dddddd;
+}
+.platformsTab ul{}
+.platformsTab li{
+    float: left;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.platformsTab li:hover,.platformsTab li.hover{
+    padding-bottom: 16px;
+    border-bottom: 4px solid #00bcd4;
+}
+.platformsTab li i{
+    padding-left: 6px;
+    color: #00bcd4;
+}
+.platformsCon{
+    width: 1200px;
+}
+.platformsCon>div{
+    display: none;
+}
+.platformsCon>div:first-child{
+    display: block;
+}
+.platformsCon table{
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.platformsCon tr{}
+.platformsCon th{
+    padding: 20px 0;
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+.platformsCon th:first-child,.platformsCon th:first-child+th{
+    width: 180px;
+}
+.platformsCon td{
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.platformsCon a{
+    float: left;
+    margin: 0 10px 10px;
+}
+.platformsCon label{
+    cursor: pointer;
+}
+a.evaBtn{
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin: 20px auto;
+    background: #00bcd4;
+    border-radius: 8px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+a.evaBtn:hover{
+    color: #ffffff;
+}
+.evaluationResult{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #ffffff;
+}
+.evaluationResult>div{
+    width: 1000px;
+    margin: 50px;
+    padding: 20px 50px;
+    background: #f8fafb;
+}
+.evaluationResult h2{
+    text-align: center;
+    font-size: 40px;
+}
+.evaluationResult h3{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 60px;
+    color: #00bcd4;
+}
+.evaluationResult p{
+    text-align: center;
+}

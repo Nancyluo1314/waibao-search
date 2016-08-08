@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>外包go</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/companyList.css"/>
+    <script src="js/adaptation.js"></script>
+</head>
+<body>
+    <div class="listLocation">
+        <span class="remove"></span>
+        <div class="locationMain">
+            <h3>当前城市</h3>
+            <b id="current"></b>
+            <div class="clear"></div>
+            <h3>可选</h3>
+            <b>全国</b>
+            <b>北京</b>
+            <b>上海</b>
+            <b>广州</b>
+            <b>深圳</b>
+            <b>成都</b>
+            <b>武汉</b>
+            <b>南京</b>
+            <b>长沙</b>
+            <b>福州</b>
+            <b>厦门</b>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <header id="header">
+        <a class="logo" href="index.html"></a>
+        <a class="search" href="search.html">搜索</a>
+        <span>全国</span>
+    </header>
+    <nav>
+        <a href="index.html">首页</a>
+        <b></b>
+        <a href="companyList.html" class="active">找外包</a>
+        <b></b>
+        <a href="news.html">资讯</a>
+        <b></b>
+        <a href="http://soft-angel.com/">技术孵化</a>
+    </nav>
+    <section>
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/banner11.png" alt=""/></div>
+                    <div class="swiper-slide"><img src="images/banner21.png" alt=""/></div>
+                    <div class="swiper-slide"><img src="images/banner31.png" alt=""/></div>
+                </div>
+                <!-- 分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section class="companys">
+        <div class="companyBox">
+            <a href="companyDetails.html"><dl>
+                <dt><img src="../images/yiou.png" alt=""/></dt>
+                <dd><h3>上海掌锦信息技术有限公司</h3></dd>
+                <dd><p><span>深圳</span> | <span>50-100</span>人 | <span>评估指数：<em>10.0</em></span></p></dd>
+                <dd class="tab"><b>开发</b><b>APP</b><b>网站维护</b><b>LOGO</b></dd>
+            </dl></a>
+        </div>
+        <div class="companyBox">
+            <a href="companyDetails.html"><dl>
+                <dt><img src="../images/yiou.png" alt=""/></dt>
+                <dd><h3>上海掌锦信息技术有限公司</h3></dd>
+                <dd><p><span>深圳</span> | <span>50-100</span>人 | <span>评估指数：<em>10.0</em></span></p></dd>
+                <dd class="tab"><b>开发</b><b>APP</b><b>网站维护</b><b>LOGO</b></dd>
+            </dl></a>
+        </div>
+        <div class="companyBox">
+            <a href="companyDetails.html"><dl>
+                <dt><img src="../images/yiou.png" alt=""/></dt>
+                <dd><h3>上海掌锦信息技术有限公司</h3></dd>
+                <dd><p><span>深圳</span> | <span>50-100</span>人 | <span>评估指数：<em>10.0</em></span></p></dd>
+                <dd class="tab"><b>开发</b><b>APP</b><b>网站维护</b><b>LOGO</b></dd>
+            </dl></a>
+        </div>
+        <div class="companyBox">
+            <a href="companyDetails.html"><dl>
+                <dt><img src="../images/yiou.png" alt=""/></dt>
+                <dd><h3>上海掌锦信息技术有限公司</h3></dd>
+                <dd><p><span>深圳</span> | <span>50-100</span>人 | <span>评估指数：<em>10.0</em></span></p></dd>
+                <dd class="tab"><b>开发</b><b>APP</b><b>网站维护</b><b>LOGO</b></dd>
+            </dl></a>
+        </div>
+        <div class="companyBox">
+            <a href="companyDetails.html"><dl>
+                <dt><img src="../images/yiou.png" alt=""/></dt>
+                <dd><h3>上海掌锦信息技术有限公司</h3></dd>
+                <dd><p><span>深圳</span> | <span>50-100</span>人 | <span>评估指数：<em>10.0</em></span></p></dd>
+                <dd class="tab"><b>开发</b><b>APP</b><b>网站维护</b><b>LOGO</b></dd>
+            </dl></a>
+        </div>
+    </section>
+    <div class="scrollTop" id="gotop"></div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="js/waibaogohtml5.js"></script>
+    <script>
+        $(function(){
+            var mySwiper = new Swiper ('.swiper-container', {
+                autoplay: 5000,
+                loop: true,
+
+                // 如果需要分页器
+                pagination: '.swiper-pagination'
+
+                // 如果需要前进后退按钮
+//                nextButton: '.swiper-button-next',
+//                prevButton: '.swiper-button-prev'
+            });
+        });
+    </script>
+    <script>
+        $(function(){
+            window.addEventListener('scroll',function(){
+                if(document.body.scrollTop > $("body").height()-$(window).height()-10){
+                    $(".companys").append('');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

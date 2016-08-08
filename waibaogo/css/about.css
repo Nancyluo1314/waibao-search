@@ -1,0 +1,32 @@
+@charset "utf-8";
+.banner{
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 30px;
+}
+.banner img{
+    width: 100%;
+}
+.content{
+    width: 858px;
+    margin: 0 auto;
+    padding: 0 170px 42px;
+    border: 1px solid #ececec;
+    background: #fcfcfc;
+}
+.content h3{
+    font-size: 24px;
+    margin-top: 44px;
+}
+.content h6{
+    font-size: 12px;
+    margin-top: 8px;
+}
+.content img{
+    width: 100%;
+    margin-top: 35px;
+}
+.content p{
+    font-size: 15px;
+    line-height: 22px;
+}

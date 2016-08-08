@@ -1,0 +1,240 @@
+﻿@charset "utf-8";
+.w-wb1 .wb1,
+.w-wb1 .wb2,
+.w-wb1 .wb3,
+.w-wb1 .wb4,
+.w-wb1 .wb5,
+.w-wb1 .wb6,
+.w-wb1 .wb7,
+.w-wb1 .wb8,
+.w-wb1 .wb9,
+.w-wb1 .wb11
+{
+    background: url(../images/pt/weibo1.png) no-repeat 999px 999px;
+}
+
+.w-wb1 .wb1,
+.w-wb1 .wb2,
+.w-wb1 .wb3,
+.w-wb1 .wb4,
+.w-wb1 .wb5,
+.w-wb1 .wb6,
+.w-wb1 .wb7,
+.w-wb1 .wb8,
+.w-wb1 .wb9,
+.w-wb1 .wb11 {
+    display: block;
+    height: 18px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.w-wb1 .wb1 {
+    width: 19px;
+    background-position: 0 -75px;
+}
+
+.w-wb1 .wb1:hover,
+.w-wb1-1 .wb1 {
+    background-position: 0 -108px;
+}
+
+.w-wb1 .wb2 {
+    width: 14px;
+    background-position: -29px -75px;
+}
+
+.w-wb1 .wb2:hover {
+    background-position: -29px -108px;
+}
+
+.w-wb1 .wb3 {
+    width: 15px;
+    background-position: -52px -74px;
+}
+
+.w-wb1 .wb3:hover,
+.w-wb1-1 .wb3 {
+    background-position: -52px -108px;
+}
+
+.w-wb1 .wb4 {
+    width: 16px;
+    background-position: -77px -75px;
+}
+
+.w-wb1 .wb4:hover,
+.w-wb1-1 .wb4 {
+    background-position: -77px -108px;
+}
+
+.w-wb1 .wb5 {
+    width: 17px;
+    background-position: -103px -75px;
+}
+
+.w-wb1 .wb5:hover,
+.w-wb1-1 .wb5 {
+    background-position: -103px -108px;
+}
+
+.w-wb1 .wb6 {
+    width: 18px;
+    background-position: -130px -75px;
+}
+
+.w-wb1 .wb6:hover,
+.w-wb1-1 .wb6 {
+    background-position: -130px -108px;
+}
+
+.w-wb1 .wb7 {
+    width: 18px;
+    background-position: -157px -75px;
+}
+
+.w-wb1 .wb7:hover {
+    background-position: -157px -108px;
+}
+
+.w-wb1 .wb8 {
+    width: 17px;
+    background-position: -185px -75px;
+}
+
+.w-wb1 .wb8:hover {
+    background-position: -185px -108px;
+}
+
+.w-wb1 .wb9 {
+    width: 26px;
+    background-position: -211px -75px;
+}
+
+.w-wb1 .wb9:hover {
+    background-position: -211px -108px;
+}
+
+.w-wb1 .wb11 {
+    width: 26px;
+    background-position: -140px -239px;
+}
+
+.w-wb1 .wb11:hover {
+    background-position: -113px -239px;
+}
+
+.f-pr {
+    position: relative;
+}
+.c-bdc .w-wb1 {
+    float: left;
+}
+
+.w-wb1 .wb10 {
+    overflow: hidden;
+    display: block;
+    width: 19px;
+    height: 18px;
+    text-indent: -9999px;
+    background: url(../images/pt/tieba241.png) -22px 0 no-repeat;
+}
+
+.w-wb1 .wb10:hover {
+    background-position: 1px 0;
+}
+.mt8{
+    margin-top: 8px;
+}
+
+
+/* 微信分享弹层样式 */
+
+.towdimcodelayer {
+    position: absolute;
+    left: -62px;
+    top: -215px;
+    z-index: 10000;
+    margin-top: 0;
+    /*opacity: 0;*/
+    /*filter: alpha(opacity=0);*/
+    display: none;
+}
+
+.js-transition {
+    /*transition: margin-top .15s ease, opacity .12s linear;*/
+    /*-webkit-transition: margin-top .15s ease, opacity .12s linear;*/
+    /*-moz-transition: margin-top .18s ease, opacity .15s linear;*/
+    /*-ms-transition: margin-top .15s ease, opacity .12s linear;*/
+    /*-o-transition: margin-top .15s ease, opacity .12s linear;*/
+    transition: margin-top .15s ease, display .12s linear;
+    -webkit-transition: margin-top .15s ease, display .12s linear;
+    -moz-transition: margin-top .18s ease, display .15s linear;
+    -ms-transition: margin-top .15s ease, display .12s linear;
+    -o-transition: margin-top .15s ease, display .12s linear;
+}
+
+.towdimcodelayer .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+    _display: none;
+}
+
+.towdimcodelayer .js-arrow-up {
+    left: 72px;
+    top: -15px;
+    border-color: transparent transparent #191919 transparent;
+}
+
+.towdimcodelayer .js-arrow-down {
+    left: 72px;
+    bottom: -15px;
+    border-color: #191919 transparent transparent transparent;
+}
+
+.towdimcodelayer .layerbd {
+    width: 100px;
+    height: 150px;
+    padding: 30px 30px 0 30px;
+    background: #191919;
+    box-shadow: 0 1px 3px #000;
+    -webkit-box-shadow: 0 1px 3px #000;
+    -moz-box-shadow: 0 1px 3px #000;
+    -o-box-shadow: 0 1px 3px #000;
+}
+
+.towdimcodelayer .codebg {
+    width: 75px;
+    height: 75px;
+    padding: 13px 12px 12px 13px;
+    background: #fff;
+}
+
+.towdimcodelayer .codebg img {
+    width: 75px;
+    height: 75px;
+}
+
+.towdimcodelayer .codettl {
+    height: 22px;
+    line-height: 22px;
+    margin-top: 5px;
+    color: #888;
+    font-size: 12px;
+}
+
+.js-show-up {
+    margin-top: 15px;
+    /*opacity: 1;*/
+    /*filter: alpha(opacity=100);*/
+    display: block;
+}
+
+.js-show-down {
+    margin-top: -15px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}

@@ -1,0 +1,279 @@
+@charset "utf-8";
+.banner{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.banner .imgList{
+    width: 300%;
+}
+.banner .imgList a{
+    float: left;
+    width: 33.33333333%;
+}
+.banner .imgList a img{
+    width: 100%;
+}
+.banner ul{
+    display: none;
+}
+.btn a{
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 47px;
+    height: 86px;
+    cursor: pointer;
+}
+.btn .btnLeft{
+    left: 50px;
+    background: url("../images/left.png") no-repeat;
+}
+.btn .btnRight{
+    right: 50px;
+    background: url("../images/right.png") no-repeat;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.search{
+    width: 100%;
+    padding-top: 34px;
+}
+.search input[type='text']{
+    box-sizing: content-box;
+    float: left;
+    width: 896px;
+    height: 56px;
+    padding: 0 15px;
+    border: 2px solid #00bcd4;
+    line-height: 56px;
+    font-size: 20px;
+}
+.search input[type='button']{
+    box-sizing: content-box;
+    float: right;
+    width: 236px;
+    height: 56px;
+    padding: 0;
+    border: 2px solid #00bcd4;
+    background: #00bcd4;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.search input:focus{
+    outline: 0;
+}
+.screen{
+    position: relative;
+    width: 1158px;
+    margin: 32px 0 10px;
+    padding: 26px 20px 0;
+    border: 1px solid #ececec;
+    background: #fcfcfc;
+    overflow: hidden;
+}
+.screen>ul{
+    font-size: 16px;
+    color: #535353;
+}
+.screen>ul>li{
+    float: left;
+    width: 100%;
+}
+.screen b{
+    float: left;
+    font-weight: bold;
+}
+.screen ul ul{
+    float: left;
+    width: 900px;
+}
+.screen ul ul li{
+    float: left;
+    margin-bottom: 17px;
+    font-weight: normal;
+}
+.screen a{
+    display: block;
+    margin: -4px 18px 0 0;
+    padding: 4px 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.screen a:hover,.screen a.hover{
+    background: #00bcd4;
+    color: #ffffff;
+}
+.sortOrder{
+    width: 1158px;
+    height: 6px;
+    padding: 26px 20px;
+    border: 1px solid #ececec;
+    background: #fcfcfc;
+}
+.sortOrder li{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #535353;
+}
+.sortOrder a{
+    display: block;
+    margin: -4px 18px 0 0;
+    padding: 4px 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.sortOrder a:hover,.sortOrder a.hover{
+    background: #00bcd4;
+    color: #ffffff;
+}
+.list{
+    padding-bottom: 40px;
+}
+.list>h4{
+    float: left;
+    padding: 26px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.list h4 span{
+    color: #ff2e63;
+}
+.list .pageList{
+    float: right;
+}
+.listBox{
+    position: relative;
+    width: 1198px;
+    margin-bottom: 10px;
+    border: 1px solid #ececec;
+    background: #fcfcfc;
+}
+.listBox .companyLogo{
+    float: left;
+    width: 240px;
+    height: 240px;
+    background: #ffffff;
+}
+.listBox .companyLogo img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 45px auto 0;
+}
+.listBox .companySurvey{
+    float: left;
+    width: 720px;
+}
+.listBox .companySurvey h4{
+    float: left;
+    width: 50%;
+    padding: 26px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.listBox .companySurvey h4 a:hover{
+    color: #00bcd4;
+}
+.listBox .companySurvey i{
+    float: right;
+    padding: 26px 30px;
+    font-size: 12px;
+    color: #96989b;
+}
+.listBox .companySurvey i em{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00bcd4;
+}
+.listBox .companySurvey p{
+    padding: 0 20px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #96989b;
+}
+.listBox .companySurvey span{
+    display: block;
+    margin-top: 10px;
+    padding: 0 20px;
+    font-size: 12px;
+    color: #00bcd4;
+}
+.listBox .companySurvey span a{
+    color: #00bcd4;
+}
+.listBox .companySurvey .tags{
+    max-height: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.listBox .companySurvey .tags b{
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background: #eaeaea;
+    font-size: 12px;
+    color: #00bcd4;
+}
+.listBox .share{
+    position: relative;
+    float: right;
+    width: 164px;
+    height: 56px;
+    margin-top: 56px;
+    padding-top: 70px;
+    border-left: 1px solid #ececec;
+    background: url("../images/dianzan.png") no-repeat 50% 40%;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.listBox .share span{
+    position: absolute;
+    top: 70px;
+    left: 72px;
+    font-size: 16px;
+    display: none;
+}
+.listBox .share:hover,.listBox .share.hover{
+    background: url("../images/dianzanhover.png") no-repeat 50% 40%;
+}
+.c-bd{
+    position: absolute;
+    top: 80px;
+    right: 116px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #ececec;
+    display: none;
+}
+.fs16{
+    margin-bottom: 10px;
+}
+.w-wb1{
+}
+.w-wb1 li{
+    float: left;
+    width: 52px;
+}
+.w-wb1 li.f-pr{
+    padding-left: 0;
+}
+.w-wb1 li a{
+
+}
+.w-wb1 .wb11{
+    background-position: -290px -479px;
+}
+.w-wb1 .wb11:hover{
+    background-position: -235px -479px;
+}
+.pager{
+    float: right;
+}

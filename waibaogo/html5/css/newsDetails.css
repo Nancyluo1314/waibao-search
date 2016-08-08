@@ -1,0 +1,66 @@
+@charset "utf-8";
+.detailBanner{
+    width: 15rem;
+    height: 3.48rem;
+    background: url("../images/banner-al.png") no-repeat;
+    background-size: 100% 100%;
+}
+.newMain{
+    padding: .72rem .4rem 1rem;
+    background: #f0f2f5;
+}
+.newMain .title{
+    width: 14.2rem;
+    padding-bottom: .4rem;
+    border-bottom: 1px solid #ececec;
+    background: #ffffff;
+}
+.newMain .title h2{
+    padding: .4rem;
+    line-height: 1rem;
+    font-size: .68rem;
+}
+.newMain .title b{
+    float: left;
+    margin-left: .4rem;
+    font-size: .36rem;
+    font-weight: bold;
+    color: #00bcd4;
+}
+.newMain .title span{
+    float: right;
+    margin-right: .4rem;
+    font-size: .36rem;
+    color: #96989b;
+}
+.newContent{
+    background: #ffffff;
+}
+.newContent p{
+    padding: .4rem .8rem;
+    line-height: .8rem;
+    font-size: .48rem;
+    color: #96989b;
+}
+.newContent img{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.eq{
+    padding-bottom: 1rem;
+    background: #ffffff;
+}
+.eq h6{
+    padding: 1rem 0 .5rem;
+    text-align: center;
+    font-size: .28rem;
+    font-weight: bold;
+    color: #000000;
+}
+.eq .eqCode{
+    width: 4rem;
+    margin: 0 auto;
+}
+.eq .eqCode img{
+    width: 100%;
+}

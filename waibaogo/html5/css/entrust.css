@@ -1,0 +1,112 @@
+@charset "utf-8";
+body{
+    background: #f0f2f5;
+}
+.entrustBanner{
+    width: 15rem;
+    height: 6.8rem;
+    background: url("../images/pbanner.png") no-repeat;
+    background-size: 100% 100%;
+}
+.entrustMain{}
+.entrustMain h3{
+    margin: 1.8rem 0 .6rem;
+    text-align: center;
+    font-size: .64rem;
+    font-weight: bold;
+    color: #747373;
+}
+.entrustMain p{
+    padding: 0 1rem;
+    line-height: .72rem;
+    font-size: .48rem;
+    color: #989898;
+}
+.process{}
+.process div div div{
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+.process h3{
+    margin: 1rem 0 .68rem;
+    text-align: center;
+    font-size: .64rem;
+    font-weight: bold;
+    color: #747373;
+}
+.process h4{
+    padding-bottom: .56rem;
+    font-size: .6rem;
+    color: #666666;
+}
+.process p{
+    line-height: .6rem;
+    font-size: .44rem;
+    color: #989898;
+}
+.process .pb{
+    position: relative;
+    width: 7.52rem;
+    height: .66rem;
+    margin: .8rem auto;
+    background: url("../images/pbj.png") no-repeat;
+    background-size: 100% 100%;
+}
+.process .pb>div{
+    position: absolute;
+    width: .52rem;
+    height: .66rem;
+    overflow: hidden;
+}
+.process .pb a{
+    float: left;
+    width: .14rem;
+    height: .24rem;
+    margin: .11rem 0 0 1.59rem;
+    font-size: .24rem;
+}
+.process .pb a:first-child{
+    margin-left: .16rem;
+}
+.process .pb b{
+    position: absolute;
+    top: .13rem;
+    width: .4rem;
+    height: .4rem;
+    background: url("../images/py.png") no-repeat;
+    background-size: 100% 100%;
+}
+.process .pb b.btn1{
+    left: .12rem;
+}
+.process .pb b.btn2{
+    left: 1.85rem;
+}
+.process .pb b.btn3{
+    left: 3.56rem;
+}
+.process .pb b.btn4{
+    left: 5.3rem;
+}
+.process .pb b.btn5{
+    left: 7rem;
+}
+.process .pb i{
+    position: absolute;
+    top: .28rem;
+    left: .2rem;
+    width: 7rem;
+    height: .1rem;
+    background: #00bcd4;
+}
+a.submitProject{
+    display: block;
+    width: 14.2rem;
+    height: 1.76rem;
+    margin: 0 auto 1.6rem;
+    background: #00bcd4;
+    line-height: 1.76rem;
+    text-align: center;
+    font-size: .6rem;
+    color: #ffffff;
+}

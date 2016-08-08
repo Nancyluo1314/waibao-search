@@ -1,0 +1,214 @@
+@charset "utf-8";
+body{
+    padding-top: 2rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+a.search{
+    float: left;
+    width: 7rem;
+    margin: .48rem 0 0 1.3rem;
+}
+header>span{
+    float: right;
+    width: 1.52rem;
+    height: 1.28rem;
+    margin: .4rem .4rem 0 0;
+    padding-right: .72rem;
+    background: url("../images/iconfont-zuojiantou.png") no-repeat 1.56rem center;
+    background-size: .44rem .26rem;
+    border-radius: .16rem 0 0 .16rem;
+    line-height: 1.28rem;
+    text-align: center;
+    font-size: .56rem;
+    color: #ffffff;
+}
+.banner{
+    width: 15rem;
+    height: 6.8rem;
+}
+.banner .swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.companys{
+    padding: .72rem .4rem .36rem;
+    background: #f0f2f5;
+}
+.companyBox{
+    box-sizing: border-box;
+    height: 4.8rem;
+    margin-bottom: .72rem;
+    padding: 1rem .4rem;
+    border-radius: .2rem;
+    background: #ffffff;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+.companyBox dl{
+    height: 2.8rem;
+}
+.companyBox dt{
+    box-sizing: border-box;
+    float: left;
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: .52rem;
+    border: 1px solid #f9f9f9;
+    border-radius: 50%;
+    background: #eeeeee;
+    overflow: hidden;
+}
+.companyBox img{
+    width: 100%;
+    height: 100%;
+}
+.companyBox h3{
+    font-size: .56rem;
+    font-weight: bold;
+    color: #535353;
+}
+.companyBox p{
+    margin: .48rem 0;
+    font-size: .44rem;
+    color: #666666;
+}
+.companyBox p em{
+    font-weight: bold;
+    color: #00bcd4;
+}
+.companyBox b{
+    float: left;
+    height: .8rem;
+    margin-right: .4rem;
+    padding: 0 .4rem;
+    border-radius: 3px;
+    background: #eeeeee;
+    line-height: .8rem;
+    font-size: .48rem;
+    color: #00bcd4;
+}
+.companyBox .tab{
+    height: .8rem;
+    overflow: hidden;
+}
+.companys p.loadMore,.companys p.noMore{
+    margin-top: -.2rem;
+    text-align: center;
+}
+.companys p.loadMore a,.companys p.noMore a{
+    margin: 0 auto;
+    font-size: .54rem;
+    color: #999999;
+}
+.companys p.noMore{
+    display: none;
+}
+.listLocation{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: .4rem 0;
+    background: #ffffff;
+    z-index: 3;
+    display: none;
+}
+.listLocation .remove{
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    margin: 0 0 .4rem .8rem;
+    background: url("../images/remove.png") no-repeat;
+    background-size: 100% 100%;
+}
+.locationMain{
+    padding: .4rem 0 1rem .7rem;
+    border-top: 1px solid #ececec;
+    background: #f3f3f3;
+}
+.listLocation h3{
+    margin: .4rem 0;
+    font-size: .56rem;
+    font-weight: bold;
+    color: #999999;
+}
+.listLocation b{
+    float: left;
+    width: 4.2rem;
+    height: 1.4rem;
+    margin: 0 .4rem .5rem 0;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: .2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    font-size: .54rem;
+    color: #525252;
+}
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
+
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7; }
+
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; } }
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
+
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7; }
+
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; } }
+
+.ball-pulse > div:nth-child(0) {
+    -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(1) {
+    -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(2) {
+    -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(3) {
+    -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse{
+    width: 1.5rem;
+    margin: 0 auto;
+    display: none;
+}
+.ball-pulse > div {
+    background-color: #aaaaaa;
+    width: .3rem;
+    height: .3rem;
+    border-radius: 100%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+}

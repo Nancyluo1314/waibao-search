@@ -1,0 +1,29 @@
+@charset "utf-8";
+.aboutBanner{
+    width: 15rem;
+    height: 3.48rem;
+    background: url("../images/bannerabout.png") no-repeat;
+    background-size: 100% 100%;
+}
+.aboutMain{
+    padding: 0 .4rem 1.6rem;
+}
+.aboutMain h2{
+    margin: 1.4rem 0 .9rem;
+    text-align: center;
+    font-size: .64rem;
+}
+.aboutMain h2 span{
+    font-size: .36rem;
+}
+.aboutMain p{
+    padding: .6rem 0 0;
+    line-height: .8rem;
+    font-size: .44rem;
+}
+.aboutMain p.tac{
+    text-align: center;
+}
+.aboutMain img{
+    width: 100%;
+}

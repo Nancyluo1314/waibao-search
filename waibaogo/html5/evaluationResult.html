@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>外包go</title>
+    <link rel="apple-touch-icon" href="images/app_ico.png"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/evaluation.css"/>
+    <script src="js/adaptation.js"></script>
+</head>
+<body>
+    <div class="header1">
+        <a class="backBtn"></a>
+        <a class="logo1" href="index.html"></a>
+        <a class="goIndex" href="index.html"></a>
+    </div>
+    <div class="clear"></div>
+    <div class="evaluationResult">
+        <div>
+            <h2>预估价格</h2>
+            <h3>&yen; <span>12345678</span> - <span>123456</span> 元</h3>
+            <p>预计开发周期：<span>9</span> - <span>99</span> 个工作日</p>
+        </div>
+        <a class="evaBtn" href="evaluation.html">返回</a>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <p>
+            <a href="about.html">关于我们</a>
+            <a href="contact.html">联系我们</a>
+        </p>
+        <div class="copy">
+            <p>Copyright &copy; 2016 技天使</p>
+        </div>
+    </footer>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/evaluation.js"></script>
+    <script>
+        /*footer fixed*/
+        if($("body").height()<$(window).height()){
+            $("footer").css({
+                position: "fixed",
+                bottom: 0,
+                left: 0
+            });
+        }else{
+            $("footer").css({
+                position: "static"
+            });
+        }
+        /*backBtn*/
+        $(".backBtn").on("click",function(){
+            history.go(-1);
+        });
+        $(".back").on("click",function(){
+            history.go(-1);
+        });
+        price();
+    </script>
+</body>
+</html>

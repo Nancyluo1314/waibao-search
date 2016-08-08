@@ -1,0 +1,151 @@
+@charset "utf-8";
+.evaluation{
+    width: 100%;
+    margin: .4rem 0;
+}
+.platforms{}
+.platforms ul{
+    margin-left: .5rem;
+}
+.platforms li {
+    float: left;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 0 .2rem .2rem 0;
+    background: #f9f9f9;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.platforms li.hover{
+    background: #00bcd4;
+}
+.platforms i{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: .2rem auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+}
+.platforms i.pf6{
+    background-image: url("../../images/evi06.png");
+}
+.platforms li.hover i{
+    background-position: -3rem 0;
+}
+.platforms span{
+    display: block;
+    text-align: center;
+    font-size: .5rem;
+    color: #8f9597;
+}
+.platforms li.hover span{
+    color: #ffffff;
+}
+.platformsTab{
+    width: 100%;
+    margin: .4rem auto;
+    border-bottom: 1px solid #dddddd;
+}
+.platformsTab ul{}
+.platformsTab li{
+    box-sizing: border-box;
+    float: left;
+    height: 1.5rem;
+    padding: .4rem .6rem;
+    font-size: .5rem;
+    cursor: pointer;
+}
+.platformsTab li.hover{
+    border-bottom: 4px solid #00bcd4;
+}
+.platformsTab li i{
+    padding-left: 6px;
+    color: #00bcd4;
+}
+.platformsCon{
+    width: 100%;
+}
+.platformsCon>div{
+    display: none;
+}
+.platformsCon>div:first-child{
+    display: block;
+}
+.platformsCon table{
+    width: 100%;
+    border: 1px solid #dddddd;
+    font-size: .6rem;
+}
+.platformsCon tr{}
+.platformsCon th{
+    padding: .4rem 0;
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+.platformsCon th:first-child{
+    width: 2rem;
+}
+.platformsCon th:first-child+th{
+    width: 3.4rem;
+}
+.platformsCon td{
+    padding: .4rem;
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.platformsCon a{
+    float: left;
+    margin: 0 .2rem .3rem 0;
+}
+.platformsCon label{
+    cursor: pointer;
+}
+a.evaBtn{
+    display: block;
+    width: 14.2rem;
+    height: 1.76rem;
+    margin: .4rem auto;
+    background: #00bcd4;
+    line-height: 1.76rem;
+    text-align: center;
+    font-size: .6rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+a.evaBtn:hover{
+    color: #ffffff;
+}
+.evaluationResult{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: .4rem 0;
+    background: #ffffff;
+}
+.evaluationResult>div{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 4rem auto 0;
+    padding: .4rem .8rem;
+    background: #f8fafb;
+}
+.evaluationResult h2{
+    text-align: center;
+    font-size: 1rem;
+}
+.evaluationResult h3{
+    text-align: center;
+    padding: .6rem 0;
+    font-size: 1rem;
+    color: #00bcd4;
+}
+.evaluationResult p{
+    text-align: center;
+    font-size: .5rem;
+}

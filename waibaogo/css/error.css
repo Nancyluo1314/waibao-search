@@ -1,0 +1,27 @@
+@charset "utf-8";
+html,body{
+    height: 100%;
+}
+.error{
+    position: relative;
+    top: 50%;
+    width: 1200px;
+    height: 596px;
+    margin: -298px auto 0;
+}
+.error .btn{
+    position: relative;
+    float: right;
+    height: 44px;
+    margin-top: -44px;
+    z-index: 1;
+}
+.error .btn a{
+    display: inline-block;
+    margin-left: 16px;
+    padding: 0 20px;
+    background: #00bcd4;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+}

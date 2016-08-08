@@ -1,0 +1,94 @@
+﻿.pager
+{
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px; /*border-radius: 8px; 	-moz-border-radius: 8px;*/
+}
+.pager div.short
+{
+    display: none;
+}
+.pager div.short input
+{
+    width: 28px;
+    height: 18px;
+    border: none;
+    margin-left: 8px;
+    float: left;
+}
+.pager ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.pager ul li
+{
+    display: inline;
+    margin-left: 2px;
+}
+.pager ul li a
+{
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-left: 8px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color: #96989b;
+    cursor: pointer;
+}
+
+.pager span
+{
+    display: none;
+}
+.pager .btn
+{
+    float: left;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 4px;
+    line-height: 26px;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.pager .disabled
+{
+    color: #A0A0A0 !important;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+/*blue*/
+.blue.normal
+{
+    background-color: #ffffff;
+    color: #96989b;
+    border: solid 1px #ececec;
+}
+.blue.active
+{
+    background-color: #00bcd4;
+    color: #ffffff;
+}
+.pager.blue .btn
+{
+    background-color: #ffffff;
+    color: #96989b;
+    border: solid 1px #ececec;
+}

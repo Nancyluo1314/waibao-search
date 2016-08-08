@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>外包go</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/news.css"/>
+    <script src="js/adaptation.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html"></a>
+        <a class="search" href="search.html">搜索</a>
+    </header>
+    <nav>
+        <a href="index.html">首页</a>
+        <b></b>
+        <a href="companyList.html">找外包</a>
+        <b></b>
+        <a href="news.html" class="active">资讯</a>
+        <b></b>
+        <a href="http://soft-angel.com/">技术孵化</a>
+    </nav>
+    <section>
+        <div class="newsBanner"></div>
+    </section>
+    <section class="news">
+        <p class="newsTab"><span class="active">最新推荐</span><span>外包经验</span><span>行业动态</span></p>
+        <div id="newBoxes">
+            <div class="newsBox">
+                <a href="newsDetails.html"><dl>
+                    <dt><img src="images/tu-1.png" alt=""/></dt>
+                    <dd><h3>三大运营商三足鼎立时代终结</h3></dd>
+                    <dd><p>上海掌锦信息技术有限公司，成立于2012年7月29日。多年来提供专业的企业级商业应用，多年来提供专业多年来提供专业</p></dd>
+                    <dd><b>来自新浪</b><span>2016-04-12 12:45</span></dd>
+                </dl></a>
+            </div>
+            <!--<div class="newsBox">-->
+                <!--<a href="newsDetails.html"><dl>-->
+                    <!--<dt><img src="images/tu-1.png" alt=""/></dt>-->
+                    <!--<dd><h3>三大运营商三足鼎立时代终结</h3></dd>-->
+                    <!--<dd><p>上海掌锦信息技术有限公司，成立于2012年7月29日。多年来提供专业的企业级商业应用，多年来提供专业多年来提供专业</p></dd>-->
+                    <!--<dd><b>来自新浪</b><span>2016-04-12 12:45</span></dd>-->
+                <!--</dl></a>-->
+            <!--</div>-->
+            <!--<div class="newsBox">-->
+                <!--<a href="newsDetails.html"><dl>-->
+                    <!--<dt><img src="images/tu-1.png" alt=""/></dt>-->
+                    <!--<dd><h3>三大运营商三足鼎立时代终结</h3></dd>-->
+                    <!--<dd><p>上海掌锦信息技术有限公司，成立于2012年7月29日。多年来提供专业的企业级商业应用，多年来提供专业多年来提供专业</p></dd>-->
+                    <!--<dd><b>来自新浪</b><span>2016-04-12 12:45</span></dd>-->
+                <!--</dl></a>-->
+            <!--</div>-->
+            <!--<div class="newsBox">-->
+                <!--<a href="newsDetails.html"><dl>-->
+                    <!--<dt><img src="images/tu-1.png" alt=""/></dt>-->
+                    <!--<dd><h3>三大运营商三足鼎立时代终结</h3></dd>-->
+                    <!--<dd><p>上海掌锦信息技术有限公司，成立于2012年7月29日。多年来提供专业的企业级商业应用，多年来提供专业多年来提供专业</p></dd>-->
+                    <!--<dd><b>来自新浪</b><span>2016-04-12 12:45</span></dd>-->
+                <!--</dl></a>-->
+            <!--</div>-->
+            <!--<div class="newsBox">-->
+                <!--<a href="newsDetails.html"><dl>-->
+                    <!--<dt><img src="images/tu-1.png" alt=""/></dt>-->
+                    <!--<dd><h3>三大运营商三足鼎立时代终结</h3></dd>-->
+                    <!--<dd><p>上海掌锦信息技术有限公司，成立于2012年7月29日。多年来提供专业的企业级商业应用，多年来提供专业多年来提供专业</p></dd>-->
+                    <!--<dd><b>来自新浪</b><span>2016-04-12 12:45</span></dd>-->
+                <!--</dl></a>-->
+            <!--</div>-->
+            <!--<div class="newsBox">-->
+                <!--<a href="newsDetails.html"><dl>-->
+                    <!--<dt><img src="images/tu-1.png" alt=""/></dt>-->
+                    <!--<dd><h3>三大运营商三足鼎立时代终结</h3></dd>-->
+                    <!--<dd><p>上海掌锦信息技术有限公司</p></dd>-->
+                    <!--<dd><b>来自新浪</b><span>2016-04-12 12:45</span></dd>-->
+                <!--</dl></a>-->
+            <!--</div>-->
+        </div>
+    </section>
+    <div class="scrollTop" id="gotop"></div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="js/waibaogohtml5.js"></script>
+    <script>
+        $(function(){
+            var mySwiper = new Swiper ('.swiper-container', {
+                autoplay: 5000,
+                loop: true,
+                pagination: '.swiper-pagination'
+            });
+        });
+    </script>
+    <script>
+        $(function(){
+            window.addEventListener('scroll',function(){
+                if(document.body.scrollTop > $("body").height()-$(window).height()-10){
+                    $("#newBoxes").append('');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

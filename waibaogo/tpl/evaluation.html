@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=EDGE">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <title>外包go</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/evaluation.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="../index.html" class="logo"></a>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="companyList.html">找外包</a></li>
+                <li><a href="news.html">资讯</a></li>
+                <li><a href="http://soft-angel.com/">技术孵化</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="evaluation">
+        <div class="platforms">
+            <ul>
+                <li><i class="pf6"></i><span>一键委托开发</span></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="platformsTab">
+            <ul></ul>
+            <div class="clear"></div>
+        </div>
+        <div class="platformsCon"></div>
+        <a class="evaBtn">一键估价</a>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <p>
+            <b>更多欢笑更多选择就在waibaogo</b>
+            <a href="about.html">关于我们</a>
+            <a href="contact.html">联系我们</a>
+            <span>服务热线：0755-81753908（9：00-19：00）</span>
+        </p>
+    </div>
+    <div class="copy">
+        <p>Copyright &copy; 2016 www.waibaogo.com 粤ICP备15098336号-3</p>
+    </div>
+    <div class="scrollTop"></div>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/evaluation.js"></script>
+    <script>
+        if(document.all){
+            document.onselectstart= function(){return false;}; //for ie
+        }else{
+            document.onmousedown= function(){return false;};
+            document.onmouseup= function(){return true;};
+        }
+        document.onselectstart = new Function('event.returnValue=false;');
+    </script>
+</body>
+</html>

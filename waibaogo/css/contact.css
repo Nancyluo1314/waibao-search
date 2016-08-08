@@ -1,0 +1,78 @@
+@charset "utf-8";
+.banner{
+    width: 100%;
+    min-width: 1200px;
+}
+.banner img{
+    width: 100%;
+}
+.content{
+    width: 646px;
+    margin: 0 auto;
+    padding: 42px 276px 48px;
+    border: 1px solid #ececec;
+    background: #fcfcfc;
+}
+.content h3{
+    font-size: 24px;
+}
+.content h6{
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 34px;
+}
+input[type="text"]{
+    width: 280px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    padding: 0 15px;
+    border: 1px solid #c9c9c9;
+    font-size: 14px;
+}
+textarea{
+    width: 604px;
+    max-width: 604px;
+    height: 136px;
+    max-height: 136px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #c9c9c9;
+    font-size: 14px;
+}
+form a{
+    display: block;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 78px;
+    border: 1px solid #00bcd4;
+    background: #fcfcfc;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #00bcd4;
+    cursor: pointer;
+}
+form a:hover{
+    background: #00bcd4;
+    color: #ffffff;
+}
+.contactWay{
+    width: 100%;
+}
+.inform{
+    float: left;
+}
+.inform h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #2f2d2d;
+}
+.inform p{
+    line-height: 34px;
+    font-size: 14px;
+    color: #2f2d2d;
+}
+.qrCode{
+    float: right;
+}

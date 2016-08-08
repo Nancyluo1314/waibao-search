@@ -1,0 +1,159 @@
+@charset "utf-8";
+.banner{
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 30px;
+}
+.banner img{
+    width: 100%;
+}
+.entrustMain{
+    height: 190px;
+    background: #f0f2f5;
+}
+.entrustMain>div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.entrustMain h3{
+    padding: 30px 0;
+    font-size: 28px;
+    color: #747373;
+}
+.entrustMain p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #989898;
+}
+.process{
+    background: #ffffff;
+}
+.process>div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.processLeft{
+    float: left;
+    width: 40%;
+}
+.processLeft ul{
+    position: relative;
+}
+.stepMain{
+    margin-top: 40px;
+}
+.processLeft ul li{
+    position: absolute;
+}
+.stepTitle li{
+    display: none;
+}
+.stepTitle li:first-child{
+    display: block;
+}
+.stepMain li{
+    display: none;
+}
+.stepMain li:first-child{
+    display: block;
+}
+.process h3{
+    padding: 130px 0 30px;
+    font-size: 28px;
+    color: #747373;
+}
+.process h4{
+    width: 300px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    font-size: 22px;
+    color: #999999;
+}
+.process p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #989898;
+}
+.process p span{
+    font-size: 12px;
+}
+.processLeft .pb{
+    position: relative;
+    width: 324px;
+    height: 24px;
+    margin: 150px 0 125px;
+    background: url("../images/pbtnbj.png") no-repeat;
+}
+.processLeft .pb a{
+    float: left;
+    width: 7px;
+    height: 12px;
+    margin: 6px 0 0 68px;
+    font-size: 12px;
+}
+.processLeft .pb a:first-child{
+    margin-left: 8px;
+}
+.processLeft .pb>div{
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    overflow: hidden;
+}
+.processLeft .pb>div.empty{
+    width: 324px;
+}
+.processLeft .pb b{
+    position: absolute;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/pbtny.png") no-repeat;
+}
+.processLeft .pb>div.empty b{
+    background: url("../images/empty.png") repeat;
+    cursor: pointer;
+}
+.processLeft .pb b.btn1{
+    left: 4px;
+}
+.processLeft .pb b.btn2{
+    left: 79px;
+}
+.processLeft .pb b.btn3{
+    left: 154px;
+}
+.processLeft .pb b.btn4{
+    left: 229px;
+}
+.processLeft .pb b.btn5{
+    left: 304px;
+}
+.processLeft .pb i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 4px;
+    background: #00bcd4;
+}
+.processRight{
+    float: right;
+}
+.process img{
+    width: 396px;
+    height: 396px;
+    margin: 50px auto;
+}
+a.submitProject{
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin: 106px auto 86px;
+    background: #00bcd4;
+    line-height: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #ffffff;
+}

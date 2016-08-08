@@ -1,0 +1,27 @@
+[
+    {
+      "terId": 1,
+      "terName": "Web网站",
+      "terIcon": "../images/evi01.png"
+    },
+    {
+      "terId": 2,
+      "terName": "移动应用iOS",
+      "terIcon": "../images/evi02.png"
+    },
+    {
+      "terId": 3,
+      "terName": "移动应用Android",
+      "terIcon": "../images/evi03.png"
+    },
+    {
+      "terId": 4,
+      "terName": "微信公众号",
+      "terIcon": "../images/evi04.png"
+    },
+    {
+      "terId": 5,
+      "terName": "前端项目",
+      "terIcon": "../images/evi05.png"
+    }
+]

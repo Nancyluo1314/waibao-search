@@ -1,0 +1,153 @@
+[
+    {
+        "modId": 1,
+        "terId": 1,
+        "modName": "基本功能",
+        "modParentId": 0,
+        "modChildList": [
+            {
+                "modId": 2,
+                "modName": "注册登录",
+                "modParentId": 1,
+                "modType": 1,
+                "funList": [
+                    {
+                        "funId": 1,
+                        "funName": "邮箱"
+                    },
+                    {
+                        "funId": 2,
+                        "funName": "手机"
+                    },
+                    {
+                        "funId": 3,
+                        "funName": "密码找回"
+                    }
+                ]
+            },
+            {
+                "modId": 3,
+                "modName": "桌面端分辨率支持（宽度）",
+                "modParentId": 1,
+                "modType": 2,
+                "funList": [
+                    {
+                        "funId": 4,
+                        "funName": "QQ"
+                    },
+                    {
+                        "funId": 5,
+                        "funName": "微信"
+                    },
+                    {
+                        "funId": 6,
+                        "funName": "微博"
+                    },
+                    {
+                        "funId": 4,
+                        "funName": "QQ"
+                    },
+                    {
+                        "funId": 5,
+                        "funName": "微信"
+                    },
+                    {
+                        "funId": 6,
+                        "funName": "微博"
+                    },
+                    {
+                        "funId": 4,
+                        "funName": "QQ"
+                    },
+                    {
+                        "funId": 5,
+                        "funName": "微信"
+                    },
+                    {
+                        "funId": 6,
+                        "funName": "微博"
+                    },
+                    {
+                        "funId": 4,
+                        "funName": "QQ"
+                    },
+                    {
+                        "funId": 5,
+                        "funName": "微信"
+                    },
+                    {
+                        "funId": 6,
+                        "funName": "微博"
+                    },
+                    {
+                        "funId": 4,
+                        "funName": "QQ"
+                    },
+                    {
+                        "funId": 5,
+                        "funName": "微信"
+                    },
+                    {
+                        "funId": 6,
+                        "funName": "微博"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "modId": 4,
+        "modName": "高级功能",
+        "modParentId": 0,
+        "modChildList": [
+            {
+                "modId": 5,
+                "modName": "通知推送方式",
+                "modParentId": 4,
+                "modType": 2,
+                "funList": [
+                    {
+                        "funId": 7,
+                        "funName": "邮件通知"
+                    },
+                    {
+                        "funId": 8,
+                        "funName": "短信通知"
+                    }
+                ]
+            },
+            {
+                "modId": 6,
+                "modName": "高级搜索",
+                "modParentId": 4,
+                "modType": 2,
+                "funList": [
+                    {
+                        "funId": 9,
+                        "funName": "算法搜索"
+                    },
+                    {
+                        "funId": 10,
+                        "funName": "条件筛选"
+                    },
+                    {
+                        "funId": 11,
+                        "funName": "智能算法推荐"
+                    }
+                ]
+            },
+            {
+                "modId": 7,
+                "modName": "主内容相关",
+                "modParentId": 4,
+                "modType": 2,
+                "funList": [
+                    {
+                        "funId": 12,
+                        "funName": "评论（图文）"
+                    }
+                ]
+            }
+        ]
+    }
+]

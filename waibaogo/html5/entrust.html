@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>外包go</title>
+    <link rel="apple-touch-icon" href="images/app_ico.png"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/entrust.css"/>
+    <script src="js/adaptation.js"></script>
+</head>
+<body>
+    <header id="top">
+        <a class="logo" href="index.html"></a>
+        <a class="search" href="search.html">搜索</a>
+    </header>
+    <nav>
+        <a href="index.html" class="active">首页</a>
+        <b></b>
+        <a href="companyList.html">找外包</a>
+        <b></b>
+        <a href="news.html">资讯</a>
+        <b></b>
+        <a href="http://soft-angel.com/">技术孵化</a>
+    </nav>
+    <section>
+        <div class="entrustBanner"></div>
+    </section>
+    <section>
+        <div class="entrustMain">
+            <h3>一键委托开发</h3>
+            <p>为解决企业或个人在有技术外包需求时，找到更专业的团队协助企业（个人）进行项目进度、质量管控，外包购推出了一键委托开发功能。企业只需要提供商业诉求，剩下的由外包购来帮您完成。一键委托服务包括：需求梳理、项目询价、项目进度把控、代码管理、项目移交、后期维护，持续为企业（个人）提供CTO式技术支持服务。</p>
+        </div>
+        <div class="process">
+            <h3>一键委托流程</h3>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h4>01.需求提交</h4>
+                        <p>提交开发需求<br/><span>Submit development requirements</span></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>02.客服介入</h4>
+                        <p>技术范围及项目评估、合作模式确定、协议合同的签订<br/><span>Technical scope and project evaluation, cooperation mode determination, contract signing</span></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>03.项目开发</h4>
+                        <p>成立工作组、制定研发周期表、原型及设计确认、全程委托开发<br/><span>The establishment of the working group, the development of the periodic table, prototype and design confirmation, full commissioned development</span></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>04.流程监控</h4>
+                        <p>按周期表工作、实时监控项目进度、质量流程监控<br/><span>Work according to the periodic table, real-time monitoring project schedule, quality process control</span></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>05.项目交付</h4>
+                        <p>项目交接测试、技术交接及培训、项目维护、售后咨询<br/><span>Project handover test, technology transfer and training, project maintenance, after sales consulting</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="pb">
+                <!--<a>1</a>-->
+                <!--<a>2</a>-->
+                <!--<a>3</a>-->
+                <!--<a>4</a>-->
+                <!--<a>5</a>-->
+                <div>
+                    <i></i>
+                    <b class="btn1"></b>
+                    <b class="btn2"></b>
+                    <b class="btn3"></b>
+                    <b class="btn4"></b>
+                    <b class="btn5"></b>
+                </div>
+            </div>
+            <a class="submitProject" href="about.html">提交需求</a>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <p>
+            <a href="about.html">关于我们</a>
+            <a href="contact.html">联系我们</a>
+        </p>
+        <div class="copy">
+            <p>Copyright &copy; 2016 技天使</p>
+        </div>
+    </footer>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="js/waibaogohtml5.js"></script>
+    <script>
+        $(function(){
+            var mySwiper = new Swiper ('.swiper-container', {
+                autoplay: 3000,
+                loop: true,
+                autoplayDisableOnInteraction : false,
+                onSlideChangeEnd: function(swiper){
+                    var i = swiper.activeIndex;
+                    i == 6 && (i = 1);
+                    $(".process .pb>div").animate({width:.52+(i-1) *1.73+"rem"},100);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
